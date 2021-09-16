@@ -4,7 +4,7 @@ Author: Jace Kline 2881618
 
 ## Introduction
 
-The purpose of this programming assignment is to practice the development and execution of a remote buffer overflow attack on a vulnerable webserver deployed on RedHat 8 Linux. We also explore an additional attack on RedHat 9 that emplmitigation technique called stack address randomization.
+The purpose of this programming assignment is to practice the development and execution of a remote buffer overflow attack on a vulnerable webserver deployed on RedHat 8 Linux. We also develop an additional attack on RedHat 9 Linux running the same webserver as an exercise in bypassing stack address randomization.
 
 ## Environment Setup
 
