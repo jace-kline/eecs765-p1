@@ -30,9 +30,9 @@ Next, we return back to the other shell to run the exploit. Run the `exploit.sh`
 
 After sending the malicious input above, return attention to the listener shell. After a slight delay, there should be a message that indicates a connection initiated from the victim machine. The RedHat 8 exploit should result in a TCP connection from IP address 192.168.180.40. The RedHat 9 exploit should result in a TCP connection from IP address 192.168.180.50. In this listener shell, run some test commands such as `whoami` and `ls` to verify that the reverse shell (as root user) has been established successfully.  Below, we show the results from successful exploits targeted at both the RedHat 8 and RedHat 9 victim machines.
 
-<img src="./screenshots/redhat8-exploit.png?raw=true" width="45%"/>
+<img src="https://github.com/jace-kline/eecs765-p1/raw/main/screenshots/redhat8-exploit.png" width="45%"/>
 
-<img src="./screenshots/redhat9-exploit.png?raw=true" width="45%"/>
+<img src="https://github.com/jace-kline/eecs765-p1/raw/main/screenshots/redhat9-exploit.png" width="45%"/>
 
 ## Developing the Exploit
 
