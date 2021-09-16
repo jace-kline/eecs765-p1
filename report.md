@@ -12,11 +12,11 @@ Show the reader that it worked for you (print screens may be very helpful)
 
 ## Developing the Exploit
 
-### Structure of the Malicious Input
+### Malicious Input Structure
 
 Describe the structure of the input, explain why you chose this structure and what you are hoping to achieve.
 
-### Determining the Paramaters used in the Malicious Input
+### Malicious Input Parameters
 
 What are the paramaters you need to determine and why? e.g., little or big endian architecture, buffer length, distance to saved_EIP, value stored in saved_EIP, etc.
 How did you determine the values for the above-mentioned paramaters?
